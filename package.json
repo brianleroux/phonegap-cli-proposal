@@ -1,0 +1,21 @@
+{
+  "name": "phonegap-cli-proposal",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin":{
+    "pg":"./bin/phonegap.js"
+  },
+  "author": "Brian LeRoux",
+  "license": "Apache2",
+  "dependencies": {
+    "connect-phonegap": "^0.13.0",
+    "cordova": "^4.0.0",
+    "cordova-lib": "^4.0.0",
+    "minimist": "^1.1.0",
+    "phonegap-app-hello-world":"1.0.0"
+  }
+}
